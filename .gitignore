@@ -1,0 +1,5 @@
+venv/
+pytorch-vision-b68adcf/
+sample/
+resnet18-f37072fd.pth
+__pycache__/
