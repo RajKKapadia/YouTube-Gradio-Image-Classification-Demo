@@ -33,7 +33,8 @@ demo = gr.Interface(fn=predict,
                     examples=[["sample/cheetah.jpeg"], ["sample/dog.jpg"],
                               ["sample/peguin.webp"], ["sample/zebra.jpeg"], ["sample/monkey.webp"], ["sample/chair.webp"]],
                     theme=gr.themes.Monochrome(),
-                    allow_flagging='never'
+                    allow_flagging='never',
+                    article='[GitHub Repository](https://github.com/RajKKapadia/YouTube-Gradio-Image-Classification-Demo)'
                     )
 
 demo.launch()
