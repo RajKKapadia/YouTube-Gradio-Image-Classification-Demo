@@ -8,7 +8,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 model = torch.hub.load(
     source='local',
-    repo_or_dir='pytorch-vision-b68adcf/',
+    repo_or_dir='model/pytorch-vision-b68adcf/',
     model='resnet18',
     weights=ResNet18_Weights.DEFAULT).eval().to(device)
 
